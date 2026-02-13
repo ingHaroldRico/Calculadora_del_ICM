@@ -16,34 +16,43 @@ function icm(){
         if(resul <=16){
              resultado.innerText="El ICM es "+resul
              desc.innerText="Estas en Desnitrución Severa"
+             desc.style.color='red'
+     
         }
         else if(resul>16.1 && resul<=18.4){
              resultado.innerText="El ICM es "+resul
              desc.innerText="Estas en Desnitrución Moderada"
+             desc.style.color='orangered'
         }
         else if(resul>18.5 && resul<=22){
              resultado.innerText="El ICM es "+resul
              desc.innerText="Estas en Bajo de Peso"
+             desc.style.color='orange'
         }
         else if(resul>22.1 && resul<=24.9){
              resultado.innerText="El ICM es "+resul
              desc.innerText="Estas en Peso Normal"
+             desc.style.color='green'
         }
         else if(resul>25 && resul<=29.9){
              resultado.innerText="El ICM es "+resul
              desc.innerText="Estas en Sobrepeso"
+             desc.style.color='orenge'
         }
          else if(resul>30 && resul<=34.9){
              resultado.innerText="El ICM es "+resul
              desc.innerText="Estas en Obesidad tipo I "
+             desc.style.color='orengered'
          }
          else if(resul>35 && resul<=39.9){
              resultado.innerText="El ICM es "+resul
              desc.innerText="Estas en Obesidad tipo II "
+             desc.style.color='darkred'
          }
           else if(resul>40){
              resultado.innerText="El ICM es "+resul
              desc.innerText="Estas en Obesidad tipo III "
+             desc.style.color='red'
          }
     }
     
